@@ -29,15 +29,44 @@ li {
     display: flex;
 }
 
-.background {
+.background-mission {
     background-image: url(../images/img-mission-background.jpeg);
     height: 700px;
     width: 1200px;
-    justify-content: center;
+    flex-direction: column;
+    
 }
 
 h2,
 h4 {
     margin: auto;
-    width: 50%;
+    font-family: 'Roboto Flex', sans-serif;
+    background-color: black;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.tea-pic-headlines {
+    flex-direction: column;
+}
+
+.background-locations {
+    background-image: url(../images/img-locations-background.jpeg);
+    height: 500px;
+    width: 1200px;
 }
