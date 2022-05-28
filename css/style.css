@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-size: 22px;
+}
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 50px; 
+    margin-left: 10px;
+}
+
+ul {
+    text-decoration: underline;
+    list-style-type: none;
+    margin-left: 1100px;
+    margin-top: 30px;
+}
+   
+li {
+    display: inline;
+    justify-content: flex-end;
+    margin-left: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.background {
+    background-image: url(../images/img-mission-background.jpeg);
+    height: 700px;
+    width: 1200px;
+    justify-content: center;
+}
+
+h2,
+h4 {
+    margin: auto;
+    width: 50%;
+}
