@@ -34,7 +34,7 @@ li {
     height: 700px;
     width: 1200px;
     flex-direction: column;
-    
+    margin: auto;
 }
 
 h2,
@@ -55,10 +55,16 @@ h4 {
 img {
     height: 200px;
     width: 300px;
+    
+}
+
+.pics {
+    margin: auto;
 }
 
 figcaption {
     font-family: 'Roboto Flex', sans-serif;
+    text-align: center;
 }
 
 .tea-pic-headlines {
@@ -69,4 +75,18 @@ figcaption {
     background-image: url(../images/img-locations-background.jpeg);
     height: 500px;
     width: 1200px;
+    margin: auto;
+}
+
+.loc-card {
+    flex-direction: column;
+    background-color: black;
+    height: 250px;
+    width: 250px;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.locations {
+    flex-direction: column;
 }
