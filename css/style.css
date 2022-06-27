@@ -27,6 +27,7 @@ li {
 
 .container {
     display: flex;
+    /* flex-wrap: wrap; */
 }
 
 .background-mission {
@@ -85,8 +86,16 @@ figcaption {
     width: 250px;
     justify-content: space-around;
     margin: auto;
+    text-align: center;
 }
 
 .locations {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact {
     flex-direction: column;
+    margin: auto;
+    text-align: center;
 }
