@@ -1,101 +1,142 @@
 body {
-    background-color: black;
-    color: seashell;
-    opacity: 0.9;
-    font-size: 22px;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
 }
 
 h1 {
-    font-family: 'Alex Brush', cursive;
-    font-size: 50px; 
-    margin-left: 10px;
+  font-family: "Alex Brush", cursive;
+  font-size: 50px;
+  margin-left: 10px;
+  letter-spacing: 2px;
 }
 
 ul {
-    text-decoration: underline;
-    list-style-type: none;
-    margin-left: 1100px;
-    margin-top: 30px;
+  text-decoration: underline;
+  letter-spacing: 1px;
+  list-style-type: none;
+  margin-left: 1100px;
+  margin-top: 30px;
 }
-   
+
 li {
-    display: inline;
-    justify-content: flex-end;
-    margin-left: 10px;
-    font-family: 'Roboto Flex', sans-serif;
+  display: inline;
+  justify-content: flex-end;
+  margin-left: 10px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .container {
-    display: flex;
-    /* flex-wrap: wrap; */
+  display: flex;
 }
 
 .background-mission {
-    background-image: url(../images/img-mission-background.jpeg);
-    height: 700px;
-    width: 1200px;
-    flex-direction: column;
-    margin: auto;
+  background-image: url(../images/img-mission-background.jpeg);
+  height: 700px;
+  width: 1200px;
+  flex-direction: column;
+  margin: auto;
+  letter-spacing: 2px;
 }
 
 h2,
 h4 {
-    margin: auto;
-    font-family: 'Roboto Flex', sans-serif;
-    background-color: black;
+  margin: auto;
+  font-family: "Roboto Flex", sans-serif;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
 }
 
 h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.mission {
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.handpicked {
+    padding-top: 8px;
+    padding-bottom: 13px;
 }
 
 h4 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 img {
-    height: 200px;
-    width: 300px;
-    
+  height: 200px;
+  width: 300px;
 }
 
 .pics {
-    margin: auto;
+  margin: auto;
+}
+
+.left-pic-top {
+    padding-left: 300px;
+}
+
+.left-pic-bottom {
+    padding-left: 475px;
+}
+
+.right-pic-top {
+    padding-right: 300px;
+}
+
+.right-pic-bottom {
+    padding-right: 475px;
 }
 
 figcaption {
-    font-family: 'Roboto Flex', sans-serif;
-    text-align: center;
+  font-family: "Roboto Flex", sans-serif;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 25px;
 }
 
 .tea-pic-headlines {
-    flex-direction: column;
+  flex-direction: column;
+  padding-top: 15px;
+  letter-spacing: 1px;
+}
+
+.whats-steeping {
+    padding-bottom: 20px;
 }
 
 .background-locations {
-    background-image: url(../images/img-locations-background.jpeg);
-    height: 500px;
-    width: 1200px;
-    margin: auto;
+  background-image: url(../images/img-locations-background.jpeg);
+  height: 500px;
+  width: 1200px;
+  margin: auto;
 }
 
 .loc-card {
-    flex-direction: column;
-    background-color: black;
-    height: 250px;
-    width: 250px;
-    justify-content: space-around;
-    margin: auto;
-    text-align: center;
+  flex-direction: column;
+  background-color: black;
+  height: 250px;
+  width: 250px;
+  justify-content: space-around;
+  margin: auto;
+  text-align: center;
 }
 
 .locations {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 15px;
+  font-size: 35px;
 }
 
 .contact {
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2px;
 }
